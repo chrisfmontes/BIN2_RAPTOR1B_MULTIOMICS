@@ -1,4 +1,4 @@
-#MLM for Trevor's high throughput phenotyping data
+#MLM script
 #first we need to read in the file and get the data for each line
 library(openxlsx)
 library(MASS)
