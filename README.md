@@ -15,7 +15,7 @@ R markdown script for bin2D, bin2T, and raptor1b mutants phosphoproteomics data 
 - Differential phosphosite intensities assessment using edgeR  
 The script will output a html file including many diagnostic plots  
 
-`IVI.R`
+`IVI.R`. 
 R script using the "influential package" to calculate network centrality measurements and the Integrated Value of Importance (IVI).
 It can loop over a set of networks in "sif" or "csv" format
 
@@ -36,7 +36,7 @@ R markdown script for bin2D, bin2T, and raptor1b mutants transcript differential
 - Use PoissonSeq for differential expression  
 The script will output a html file including many diagnostic plots
 
-`correlation_network.r`
+`correlation_network.r`  
 R script for kinase-signaling network reconstruction. Within the function, user can choose different Pearson and/or Spearman correlation threshold.
 
 `heatmap_phenotype_individualHM.R`
