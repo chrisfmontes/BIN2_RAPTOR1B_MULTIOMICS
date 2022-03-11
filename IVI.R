@@ -37,7 +37,7 @@ for (i in list.files(pattern = "*.sif$",full.names = T)) {
 }
 
 myIVIfiles <- list.files(pattern = "*_IVI.csv$", full.names = T)
-myGeneAnnot <- read_csv(file = "../Ath_symbol_file.csv")
+myGeneAnnot <- read_csv(file = "../Ath_symbol_file.csv") #we provide a table having AGI and respsective gene symbol
 
 for (i in myIVIfiles) {
   read_csv(file = i) %>%
